@@ -11,8 +11,9 @@ const deployment_name = process.env.DEPLOYMENT_NAME;
 
 const client = new OpenAI({
   apiKey: api_key,
-  baseURL: `${endpoint}openai/deployments/${deployment_name}`,
-  defaultQuery: { "api-version": process.env.API_VERSION }
+  baseURL: `${endpoint}/openai/deployments/${deployment_name}`,
+  defaultQuery: { 'api-version': '2024-05-01-preview' },
+  defaultHeaders: { 'api-key': api_key }
 });
 
 // Endpoint POST /api/chat
