@@ -39,6 +39,6 @@ const phi4Router = require('./phi4');
 app.use('/api', phi4Router);
 
 app.listen(port, () => {
-  console.log(`Backend escuchando en http://localhost:${port}`);
+  console.log(`🚀 Backend escuchando en http://localhost:${port}`);
   console.log(`Allowed origins: ${allowedOrigins.join(', ')}`);
 });
