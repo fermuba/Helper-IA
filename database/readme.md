@@ -72,15 +72,8 @@ Cada entidad corresponde a un segmento relevante detectado por IA.
 +---------------------+
 ```
 
-### ERD como imagen (opcional)
+### Diagrama E-R
 
-Para usar una imagen del diagrama, colocala en:
-
-```
-/image/er-diagram.png
-```
-
-Y este README mostrará la imagen automáticamente:
 
 ```markdown
 ![Diagrama ER](../image/er-diagram.png)
