@@ -75,9 +75,9 @@ Cada entidad corresponde a un segmento relevante detectado por IA.
 ### Diagrama E-R
 
 
-```markdown
+
 ![Diagrama ER](../image/er-diagram.png)
-```
+
 
 ---
 
