@@ -7,6 +7,7 @@ require('dotenv').config();
 const endpoint = process.env.AZURE_SEARCH_ENDPOINT;
 const indexName = process.env.AZURE_SEARCH_INDEX;
 const apiKey = process.env.AZURE_SEARCH_API_KEY;
+console.log('API KEY:', apiKey);
 
 const client = new SearchClient(endpoint, indexName, new AzureKeyCredential(apiKey));
 
